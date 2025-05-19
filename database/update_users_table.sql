@@ -1,0 +1,3 @@
+ALTER TABLE users ADD COLUMN full_name VARCHAR(100) AFTER email;
+ALTER TABLE users ADD COLUMN phone VARCHAR(15) AFTER full_name;
+ALTER TABLE users ADD COLUMN address TEXT AFTER phone;
